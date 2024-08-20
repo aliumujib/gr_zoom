@@ -12,7 +12,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.1.2'
+        classpath 'com.android.tools.build:gradle:8.5.0'
     }
 }
 
@@ -35,6 +35,8 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 33
     buildToolsVersion = "30.0.3"
+
+    namespace 'com.circlemedical.zoom'
 
     defaultConfig {
         minSdkVersion 24
