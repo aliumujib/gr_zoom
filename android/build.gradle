@@ -36,7 +36,7 @@ android {
     compileSdkVersion 33
     buildToolsVersion = "30.0.3"
 
-    namespace 'com.circlemedical.zoom'
+    namespace 'com.webcare.zoom'
 
     defaultConfig {
         minSdkVersion 24
