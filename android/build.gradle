@@ -76,11 +76,14 @@ dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
     implementation "androidx.core:core-ktx:1.7.0"
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0"
-    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0"
+
+    implementation 'androidx.core:core-splashscreen:1.0.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.21'
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.2"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.6.2"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2"
 
     implementation "androidx.fragment:fragment-ktx:1.4.1"
 
-    api(name: 'commonlib', ext: 'aar')
     api(name: 'mobilertc', ext: 'aar')
 }
